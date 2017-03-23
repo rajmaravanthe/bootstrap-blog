@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.10.1/bootstrap-social.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .footer {
+            background: #061D25;
+            padding: 10px 0;
+        }
+
+
+
+        .footer a {
+            color: #70726F;
+            font-size: 20px;
+            padding: 10px;
+            border-right: 1px solid #70726F;
+            -webkit-transition: all .5s ease;
+            transition: all .5s ease;
+        }
+
+
+
+        .footer a:first-child {
+            border-left: 1px solid #70726F;
+        }
+
+
+
+        .footer a:hover {
+            color: white;
+            -webkit-transition: all .5s ease;
+            transition: all .5s ease;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">My blog</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Location <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Bangalore</a></li>
+                            <li><a href="#">Mysore</a></li>
+                            <li><a href="#">Mangalore</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Contact Us</a></li>
+            </div>
+        </div>
+    </nav>
+    <!--End Nav-->
+    <!--Starting container-->
+    <div class="container">
+        <main>
+            <h1>Enter the system</h1>
+            </br>
+            <p>It is neccessory to login in Your account in order to sign up for a course.
+                <div class="inline register">
+                    <h3>ARE YOU NEW?<span> REGISTER</span></h3>
+                    <div>
+                        <input type="text" name="username" placeholder="username">
+                    </div>
+                    <div>
+                        <input type="email" name="Email" placeholder="Email">
+                    </div>
+                    <div>
+                        <input type="password" name="Password" placeholder="Password">
+                    </div>
+                    <div>
+                        <input type="password" name="confirmPassword" placeholder="Confirm Password">
+                    </div>
+                    <div>
+                        <button name="register" id="register">Register</button>
+                    </div>
+                </div>
+                <div class="inline login">
+                    <h3>ALREADY A STUDENT? LOGIN</h3>
+                    <div>
+                        <input type="text" name="username" placeholder="username">
+                    </div>
+                    <div>
+                        <input type="password" name="Password" placeholder="Password">
+                    </div>
+                    <div>
+                        <input type="checkbox" class="remember">&nbsp; Remember me?
+                        <button name="login" id="login">Login</button>
+                        <a href="">Forgot Password?</a>
+                    </div>
+                </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="container text-center">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-skype"></i></a>
+        </div>
+        <!--End container-->
+    </footer>
+    <!--End footer 2-->
+</body>
+
+</html>
